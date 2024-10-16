@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Pratikum Valen</title>
+    <style >
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #e9ecef;
+            color: #2c3e50;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #34495e;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        ul {
+            padding-left: 0;
+            list-style-type: square;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        .question {
+            font-weight: bold;
+        }
+        .answer {
+            margin-top: 5px;
+            padding-left: 20px;
+            border-left: 3px solid #2980b9;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #7f8c8d;
+        }
+        .footer a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Laporan Pratikum</h1>
+
+<div>
+    <h2>Pertanyaan seputar tag</h2>
+    <ul>
+        <li>
+            <div class="question">Apa yang dimaksud dengan tag pada html?</div>
+            <div class="answer">Tag pada html merupakan sebuah penanda awalan dan akhiran dari sebuah elemen di html.</div>
+        </li>
+        <li>
+            <div class="question">Apa itu pembuka dan penutup tag? Apakah hal tersebut terdapat pada semua jenis tag?</div>
+            <div class="answer">Tag pembuka digunakan untuk menandai awal suatu elemen,dan didalamnya terdapat nama elemen,dan juga berisi sebuah paragraph.Tag penutup digunakan untuk menandai akhir suatu elemen.Tidak semua tag html memiliki tag penutup.</div>
+        </li>
+    </ul>
+</div>
+
+<div>
+    <h2>Pertanyaan seputar element</h2>
+    <ul>
+        <li>
+            <div class="question">Apa yang dimaksud dengan element?</div>
+            <div class="answer">Element merupakan document yang terdiri dari tag pembuka,content, dan tag penutup.Element berfungsi untuk membuat dan menentukan konten halaman web.Element merupakan struktur lengkap yang digunakan untuk mendefenisikan bagian bagian dokumen html.</div>
+        </li>
+        <li>
+            <div class="question">Apa yang dimaksud dengan tagname, attribute dan content pada element?</div>
+            <div class="answer">Tagname merupakan property yang mengembalikan nama tag dari suatu element.Ini hanya dapat dibaca dan mengembalikan nama tag dalam huruf besar.
+                Attribute adalah informasi tambahan yang digunakan untuk menyesuaikan tampilan elemen html.Attribute digunakan untuk menentukan Bahasa dari teks yang digunakan disetiap halaman web.Tujuannya adalah untuk menandai Bahasa dari dokumen utama.
+                Content merupakan element yang digunakan untuk mengisi konten seperti teks,gambar,video dan lainnya.
+                </div>
+        </li>
+        <li>
+        <div class="question">Apakah elemen dapat ditumpuk? Apa yang terjadi bila demikian?</div>
+        <div class="answer">Element dapat ditumpuk secara vertical dengan menggunakan property posisi dalam CSS.Properti posisi yang bisa digunakan yaitu position dan absolute yang akan menempatkan elemen dihalaman.</div>
+    </li>
+    
+    </ul>
+</div>
+
+<div>
+    <h2>Pertanyaan seputar anchor</h2>
+    <ul>
+        <li>
+            <div class="question">Apa yang dimaksud dengan anchor?</div>
+            <div class="answer">Anchor adalah teks/link yang dapat diklik/ditekan pada halaman web.Biasanya anchor ditampillkan dengan warna biru dan bergaris.Link nya dapat membuat tautan ke halaman web,gambar,dokumen,dan lainnya.</div>
+        </li>
+        <li>
+            <div class="question">Bagaimana caranya anchor dapat berfungsi, baik dari sisi pendefinisian ataupun pengaplikasiannya?</div>
+            <div class="answer">Cara anchor dapat berfungsi:
+                Pendefenisian anchor:
+                •	Tag <a>
+                Tag anchor dibuka dengan <a> dan ditutup dengan </a>.Ini biasanya memiliki atribut utama yaitu href,yang menentukan tujuan URL.
+                •	Atribut href Menunjukkan Alamat URL.
+                •	Content merupakan elemen yang berada diantara tag pembuka dan tag penutup yang akan ditampilkan.
+                
+                Pengaplikasian anchor:
+                •	Tautan ke halaman lain
+                <a href="https://www.google.com">Kunjungi google</a>
+                Ketika diklik akan mengarahkan kita ke google.
+                •	Tautan ke halaman dalam situs yang sama
+                Digunakan untuk mengarahkan ke halaman lain dalam situs yang sama
+                <a href="about.html">Tentang Saya</a>
+                •	Tautan email
+                Dapat mengirim email dengan mennggunakan skema mailto
+                <a href="mailto:valen@gmail.com">Kirim Email</a>
+                •	Tautan Telepon
+                Melakukan panggilan dengan skema tel
+                <a href="tel:+621234567">Hubungi Saya</a>
+                </div>
+        </li>
+    </ul>
+</div>
+
+<div>
+    <h2>Pertanyaan seputar multimedia</h2>
+    <h3>A.Text</h3>
+    <ul>
+        <li>
+            <div class="question">Sebutkan tag yang dapat digunakan untuk memanipulasi konten teks pada html, serta jelaskan fungsinya!</div>
+            <div class="answer">Tag untuk memanipulasi konten pada teks
+                •	< html > digunakan untuk mendefinisikan seluruh dokumen
+                •	< head > berisi informasi meta tentang dokumen seperti judul
+                •	< tittle > menetapkan judul halaman web
+                •	< body > bagian utama dari halaman web
+                •	< h1 >-< h6 > sebagai judul,h1 sebagai judul utama dan h6 sebagai judul terkecil
+                •	< p > paragraph teks
+                •	< a > link ke halaman web lain
+                •	< br > jeda baris dalam teks
+                •	< hr > Garis horizontal,digunakan untuk pemisah konten
+                •	< div > element yang akan membuat baris baru
+                •	< span > mengelompokkan element lainnya,sebagai inline element
+                </div>
+        </li>
+        <li>
+            <div class="question">Sebutkan tag yang dapat digunakan untuk memanipulasi struktur konten teks pada html!</div>
+            <div class="answer">Tag untuk memanipulasi sturktur konten
+                •	< section > menandai bagian terpisah pada dokumen
+                •	< article > konten yang berdiri sendiri seperti artikel,blog,dan lainnya
+                •	< header > Header dari dokumen,berisi judul,logo,dan navigasi
+                •	< footer > footer dari dokumen,berisi informasi hak cipta,dan informasi tambahan
+                •	< nav > navigasi dalam dokumen,berisi tautan menu
+                •	< main > konten utama dari dokumen
+                •	< aside > konten yang bersifat sampingan,seperti informasi tambahan yang tidak ada hubungan dengan konten utama
+                •	< table > mebuat tabell
+                •	< form > formular input dari halaman web
+                </div>
+        </li>
+    </ul>
+</div>
+    <h3>B.Image</h3>
+    <ul>
+        <li>
+            <div class="question">Apabila sebuah tag image tidak menampilkan gambar sebagaimana seharusnya, apa saja yang mungkin menyebabkan hal tersebut?</div>
+            <div class="answer">
+                •	Kesalahan nama folder gambar dikode HTML
+                Salah menuliskan nama folder tempat gambar disimpan didalam kode HTML.
+                •	Salah menulis nama file gambar
+                Nama file gambar didalam kode HTML tidak sesuai dengan nama sebenarnya diserver.
+                •	Salah menulis eskstensi file gambar
+                Salah menulis eskstensi file gambar,contoh jpg menjadi jpp
+                •	File gambar eror
+                File gambar bisa saja eror sehingga tidak bisa menampilkan gambar.
+                •	Masalah pada database website
+                Masalah pada database situs web yang menyebabkan gambar tidak bisa ditampilkan
+                •	Masalah saat menampilkan halaman web
+                Masalah kode CSS dan javascript yang digunakan untuk menampilkan web.
+                </div>
+        </li>
+        <li>
+            <div class="question">Apabila ternyata ada teks yang menggantikan gambar tersebut, apa yang sebenarnya terjadi? Jelaskan!</div>
+            <div class="answer">Jika terdapat atribut alt didalam tag img,maka atribut alt akan ditampilkan sebagai pengganti gambar.Fungsi atribut alt adalah memberikan deskripsi alternatif untuk gambar bila gambar tidak dapat dimuat.</div>
+        </li>
+    </ul>
+</div>
+    <h3>C.Audio</h3>
+    <ul>
+        <li>
+            <div class="question">Bagaimana caranya untuk kita dapat memasukkan audio source dari web (non-lokal)? Jelaskan!</div>
+            <div class="answer">Untuk memasukkan audio source dari web menggunakan tag < audio >.Lalu menyertakan URL dari sumber audio.Dan pastikan format audio mendukung.Contoh format yang didukung MP3,OGG,WAV.</div>
+         </li>
+    </ul>
+</div>
+    <h3>D.Video</h3>
+    <ul>
+        <li>
+            <div class="question">Apa yang biasanya terjadi apabila atribut autoplay pada tag video tidak berjalan? Apa yang anda harus lakukan sehingga atribut tersebut dapat berfungsi dengan semestinya? </div>
+            <div class="answer">Biasanya atribut autoplay pada tag video tidak berjalan dikarenakan beberapa hal:
+                •	Kebijakan browser mengenai autoplay.Sebagian besar browser telah melakukan kebijakan untuk memblokir pemutaran otomatis video dikarenakan video memiliki audio yang diaktifkan.
+                •	Format tidak mendukung.Format yang tidak mendukung biasanya menyebabkan video gagal diputar.
+                Solusinya yang dilakukan:
+                •	Gunakan atribut muted.Untuk menonaktifkan audio pada video.Browser biasanya mengizinikan autoplay jika video tanpa suara.
+                •	Pastikan bahwa format video yang digunakan mendukung dibrowser.Contoh MP4,WebM,dan OGG.
+                </div>
+         </li>
+    </ul>
+</div>
+
+</body>
+</html>
